@@ -20,7 +20,7 @@ public class Tutorial {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Tutorial(long id, String title, String description, boolean published) {
+	public Tutorial(int id, String title, String description, boolean published) {
 		super();
 		this.id = id;
 		this.title = title;
@@ -32,7 +32,7 @@ public class Tutorial {
 		return id;
 	}
 
-	public void setId(long id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 
